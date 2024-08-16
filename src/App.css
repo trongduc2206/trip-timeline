@@ -29,3 +29,17 @@ img:hover {
   transform: translateY(-12px); /* Float the image up by 10px */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), 0 12px 40px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
 }
+
+.container {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Change to column on mobile screens */
+  }
+  .timeline {
+    margin-top: 10px;
+    padding-top: 2rem;
+  }
+}

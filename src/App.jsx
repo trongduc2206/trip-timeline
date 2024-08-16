@@ -4,7 +4,7 @@ import CustomizedTimeline from './Timeline';
 function App() {
 
   return (
-    <div style={{display: 'flex'}}>
+    <div className='container'>
       {/* Your content here */}
 
       <img src='/background2.png' />
